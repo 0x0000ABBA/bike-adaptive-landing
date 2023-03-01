@@ -280,8 +280,13 @@ body {
     }
 
     .Content_column__container {
-        padding: 5% 0;
+        padding: 5%;
         min-height: var(--content-row-height);
+    }
+
+    .Small_row {
+        min-height: var(--content-row-height);
+
     }
 
     .Content_column {
@@ -301,6 +306,9 @@ body {
     .Nav_bar {
         position: unset; 
     }
+
+
+
 
     .Nav_bar span {
         display: none;
